@@ -1,0 +1,19 @@
+[2025-02-03 17:02:14,176]\tINFO\t[temp.py:<module>:30]\t>> 1/3 = 0.3333333333333333
+[2025-02-03 17:02:14,181]\tINFO\t[temp.py:<module>:30]\t>> 1/2 = 0.5
+[2025-02-03 17:02:14,182]\tINFO\t[temp.py:<module>:30]\t>> 1/1 = 1.0
+[2025-02-03 17:03:30,492]\tINFO\t[temp.py:<module>:40]\t>> 1/3 = 0.3333333333333333
+[2025-02-03 17:03:30,495]\tINFO\t[temp.py:<module>:40]\t>> 1/2 = 0.5
+[2025-02-03 17:03:30,497]\tINFO\t[temp.py:<module>:40]\t>> 1/1 = 1.0
+[2025-02-03 17:03:30,498]\tERROR\t[temp.py:handle_exception:28]\t>> Unexpected exception
+Traceback (most recent call last):
+  File "D:\문서\D__1_Projects\202502\PyLog\temp.py", line 37, in <module>
+    num = 1/i
+          ~^~
+ZeroDivisionError: division by zero
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\문서\D__1_Projects\202502\PyLog\temp.py", line 39, in <module>
+    raise ZeroDivisionError()
+ZeroDivisionError
